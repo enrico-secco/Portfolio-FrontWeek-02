@@ -1,0 +1,23 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+//Importa-se as cores antes da tipografia, pois se não ele vai tentar aplicar a cor na tipografia --
+//--porém ainda não foi importada as cores;
+@import 'sass/colors';
+@import 'sass/typography';
+
+body{
+    width: 100%;
+
+    background-color: $black-dark;
+}
+
+.border{
+    border: 1px solid red;
+}
+
+@import 'sass/spacing';
+@import 'sass/layout';
